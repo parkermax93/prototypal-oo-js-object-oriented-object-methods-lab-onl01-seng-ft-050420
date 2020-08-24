@@ -1,3 +1,9 @@
 function BoardMember(name, homeState, training) {
-  constructor 
+  this.name = name;
+  this.homeState = homeState;
+  this.training = training;
+}
+
+BoardMember.prototype.veto = function() {
+  
 }
